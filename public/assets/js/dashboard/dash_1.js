@@ -270,13 +270,13 @@ var options1 = {
       lineCap: 'square'
   },
   series: [{
-      name: 'Income',
+      name: 'Ingresos',
       data: [16800, 16800, 15500, 17800, 15500, 17000, 19000, 16000, 15000, 17000, 14000, 17000]
   }, {
-      name: 'Expenses',
+      name: 'Gastos',
       data: [16500, 17500, 16200, 17300, 16000, 19500, 16000, 17000, 16000, 19000, 18000, 19000]
   }],
-  labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  labels: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
   xaxis: {
     axisBorder: {
       show: false
@@ -454,7 +454,7 @@ var options = {
       width: 25,
     },
     series: [985, 737, 270],
-    labels: ['Apparel', 'Electronic', 'Others'],
+    labels: ['Coche', 'Autobús', 'Bicicleta'],
     responsive: [{
         breakpoint: 1599,
         options: {
