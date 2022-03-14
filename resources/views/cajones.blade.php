@@ -1,5 +1,8 @@
-<div>
+@extends('layouts.template')
 
-    <livewire:cajones />
+@section('content')
+    {{-- @livewire('cajon-controller') --}}
 
-</div>
+    <livewire:cajon-controller></livewire:cajon-controller>
+@endsection
+

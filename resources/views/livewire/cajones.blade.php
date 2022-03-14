@@ -1,3 +1,5 @@
 <div>
-    Soy el componente Cajones
+    <input type="text" name="" wire:model="name">
+    
+    {{ $name }}
 </div>
